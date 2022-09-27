@@ -10,6 +10,8 @@
 body {
     background-color: var(--white);
     color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .my-bg-black{
@@ -27,8 +29,6 @@ body {
 .bg-dark-grey{
     background-color: var(--dark-grey);
 }
-
-
 /*MAIN*/
 #hero {
     padding-top: 100px;
@@ -40,21 +40,16 @@ body {
 img .avatar {
     width: 70%;
     max-width: 100%;
-   
-    
-}
+   }
 #hero h1{
     margin-bottom: 25px;
 }
-
 .icon, .icon-b {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 24px;
 }
-
-
 .icon::before {
     content: "";
     display: block;
@@ -63,7 +58,6 @@ img .avatar {
     border: 2px solid var(--white);
 
 }
-
 .icon::after {
     background-color: var(--white);
     content: "";
@@ -75,8 +69,6 @@ img .avatar {
     color:var(--white);
    
 }
-
-
 .icon-b::before {
     content: "";
     display: block;
@@ -84,7 +76,6 @@ img .avatar {
     width: 100px;
     border: 2px solid var(--dark-grey);
 }
-
 .icon-b::after {
     background-color: var(--dark-grey);
     content: "";
@@ -92,15 +83,12 @@ img .avatar {
     width: 100px;
     border: 2px solid var(--dark-grey);
 }
-
 .icon .fas.fa-star, .icon-b .fas.fa-star {
     margin: 0 15px;
 }
 
 .image {
     width: 100%;
-    
-
 }
 /*HEADER*/
 header {
@@ -109,4 +97,16 @@ header {
     height: 90px;
     top: 0;
     width: 100%;
+    z-index:2000;
+}
+
+/*footer
+#footer-top  span i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 6px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color:white;
 }
