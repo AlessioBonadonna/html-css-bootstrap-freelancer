@@ -101,6 +101,9 @@ header {
     z-index:2000;
 }
 /*footer*/
+.a-footer:hover{
+    text-decoration: underline;
+}
 /*hover*/
 #boot-navbar ul li a:hover , .navbar-toggler-icon:hover{
     color:var(--green) !important;
