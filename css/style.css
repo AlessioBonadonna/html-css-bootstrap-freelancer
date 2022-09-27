@@ -28,16 +28,80 @@ body {
     background-color: var(--dark-grey);
 }
 
+
 /*MAIN*/
 #hero {
     padding-top: 100px;
+    padding-bottom:50px
 }
-
+.avatar{
+    margin-bottom: 40px;
+}
 img .avatar {
     width: 70%;
     max-width: 100%;
+   
+    
+}
+#hero h1{
+    margin-bottom: 25px;
 }
 
+.icon, .icon-b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+
+.icon::before {
+    content: "";
+    display: block;
+    background-color: var(--white);
+    width: 100px;
+    border: 2px solid var(--white);
+
+}
+
+.icon::after {
+    background-color: var(--white);
+    content: "";
+    display: block;
+    width: 100px;
+    border: 2px solid var(--white);
+}
+.icon .fas.fa-star {
+    color:var(--white);
+   
+}
+
+
+.icon-b::before {
+    content: "";
+    display: block;
+    background-color: var(--dark-grey);
+    width: 100px;
+    border: 2px solid var(--dark-grey);
+}
+
+.icon-b::after {
+    background-color: var(--dark-grey);
+    content: "";
+    display: block;
+    width: 100px;
+    border: 2px solid var(--dark-grey);
+}
+
+.icon .fas.fa-star, .icon-b .fas.fa-star {
+    margin: 0 15px;
+}
+
+.image {
+    width: 100%;
+    
+
+}
 /*HEADER*/
 header {
     background-color: var(--black);
