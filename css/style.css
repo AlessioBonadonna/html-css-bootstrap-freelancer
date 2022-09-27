@@ -57,6 +57,7 @@ img .avatar {
     background-color: var(--white);
     width: 100px;
     border: 2px solid var(--white);
+    border-radius: 30%;;
 
 }
 .icon::after {
@@ -65,6 +66,7 @@ img .avatar {
     display: block;
     width: 100px;
     border: 2px solid var(--white);
+    border-radius: 30%;
 }
 .icon .fas.fa-star {
     color:var(--white);
@@ -76,6 +78,7 @@ img .avatar {
     background-color: var(--dark-grey);
     width: 100px;
     border: 2px solid var(--dark-grey);
+    border-radius:30%;
 }
 .icon-b::after {
     background-color: var(--dark-grey);
@@ -83,6 +86,7 @@ img .avatar {
     display: block;
     width: 100px;
     border: 2px solid var(--dark-grey);
+    border-radius: 30%;
 }
 .icon .fas.fa-star, .icon-b .fas.fa-star {
     margin: 0 15px;
@@ -105,9 +109,15 @@ header {
     text-decoration: underline;
 }
 /*hover*/
+#boot-navbar ul li a{
+    background-color: var(--dark-grey);
+    width:25%;
+   
+}
 #boot-navbar ul li a:hover , .navbar-toggler-icon:hover{
     color:var(--green) !important;
-    background-color: var(--grey);
+
+    width:25%;
 }
 
 .overlay{
